@@ -2,6 +2,12 @@
 
 # Este é um exemplo de como utilizar o Markdown <h1>
 
+Podemos alterar o tamanho do cabeçalho ou titúlos mais importantes dos textexto acrescentando um ou mais # na frente do texto. Exemplo:
+
+## Concrete Solutions
+### Concrete Solutions
+#### Concrete Solutions
+
 Para utilizar fonte em negrito utilize ** antes e depois do texto:
 
 **Concrete Solutions**
