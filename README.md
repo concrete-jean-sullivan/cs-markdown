@@ -10,6 +10,15 @@ Para utilizar fonte em Itálico utilize _ antes e depois do texto:
 
 _Estudando sobre DevOps_
 
-# Comandos podem ser combinados, exemplo Negrito e Itálico juntos:
+### Comandos podem ser combinados, exemplo Negrito e Itálico juntos:
 
 **_Entendendo a Cultura Scrum_**
+
+Podemos também, criar listas ordenadas, exemplo:
+
+**_Dentro de cada Sprint, temos:_**
+
+1. Planning
+2. Review
+3. Retropesctive
+
