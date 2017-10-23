@@ -6,12 +6,12 @@
 
 ---
 
-When deploying a web site or a web app, the most common web service solution for that is to setup a LAMP stack which consists of Linux, Apache, MySQL, and PHP.
+> When deploying a web site or a web app, the most common web service solution for that is to setup a LAMP stack which consists of Linux, Apache, MySQL, and PHP.
 
-In this article, we will learn how to setup an up-to-date LAMP stack by installing the latest stable releases of **Apache 2.4.x, MariaDB 10.x, and PHP 7.x** on Ubuntu 16.04.
+> In this article, we will learn how to setup an up-to-date LAMP stack by installing the latest stable releases of **Apache 2.4.x, MariaDB 10.x, and PHP 7.x** on Ubuntu 16.04.
 
 
-Let's GO :exclamation::exclamation:
+HandsOn GO :exclamation::exclamation:
 
 ## Prerequisites
 
