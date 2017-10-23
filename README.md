@@ -38,4 +38,4 @@ Markdown nos permite formatar textos de forma simples e fácil. Existem muito ma
 
 Para saber mais informações sobre Markdown, acessem o site: (Markdown - Wikipedia)[https://daringfireball.net/projects/markdown/]
 
- 
+**Até Breve** :kissing_closed_eyes: 
