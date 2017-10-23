@@ -28,3 +28,8 @@ Podemos também, criar listas ordenadas, exemplo:
 2. Review
 3. Retropesctive
 
+Podemos adicionar links dentro do arquivo, como mostra o exemplo abaixo:
+
+[Concrete Solutions](http://www.concrete.com.br) "Clique aqui para ir ao nosso site"
+
+
