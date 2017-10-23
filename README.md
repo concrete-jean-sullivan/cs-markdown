@@ -1,15 +1,17 @@
 
 # How to Install Apache 2.4.x, MariaDB 10.x, and PHP 7.x on Ubuntu 16.04
 
-!(LAMP)[https://github.com/concrete-jean-sullivan/cs-markdown/blob/master/mariadb-apache-php-replace-mysql-01.jpg]
 
+!(LAMP)[http://resource.thaicreate.com/upload/tutorial/mariadb-apache-php-replace-mysql-01.jpg]
+
+---
 
 When deploying a web site or a web app, the most common web service solution for that is to setup a LAMP stack which consists of Linux, Apache, MySQL, and PHP.
 
 In this article, we will learn how to setup an up-to-date LAMP stack by installing the latest stable releases of **Apache 2.4.x, MariaDB 10.x, and PHP 7.x** on Ubuntu 16.04.
 
 
-Let's GO:exclamation::exclamation:
+Let's GO :exclamation::exclamation:
 
 ## Prerequisites
 
@@ -61,8 +63,9 @@ _sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F
 _sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://mirror.jmu.edu/pub/mariadb/repo/10.1/ubuntu xenial main'
 Install MariaDB:_
 
-sudo apt update -y
-sudo apt install -y mariadb-server
+_sudo apt update -y_
+_sudo apt install -y mariadb-server_
+
 During the installation process, the MariaDB package configuration wizard will automatically pop up and ask you to setup a new password for the MariaDB root user. For now, just press Enter every time the wizard pops up to skip this step because we will setup a password for the MariaDB root user in the following securing MariaDB procedure.
 
 Having MariaDB installed, you can confirm the installation with:
@@ -115,12 +118,12 @@ Remember to restart the MariaDB service if you make any modifications to that fi
 _sudo systemctl restart mariadb.service_
 
 
-Step 3: Install PHP 7.0 or 7.1
+### Step 3: Install PHP 7.0 or 7.1
 
 When dealing with PHP 7.x, please refer to another Vultr article which describes the process in detail.
 
 
-Step 4: Setup the UFW firewall
+### Step 4: Setup the UFW firewall
 
 By default, the UFW firewall on Ubuntu 16.04 is inactive. You should enable the UFW firewall in order to enhance security:
 
@@ -128,4 +131,9 @@ _sudo ufw app list_
 _sudo ufw allow OpenSSH_
 _sudo ufw allow in "Apache Full"_
 _sudo ufw enable_
-That's all. After going through the above procedures, the LAMP stack would have been up and running on your Ubuntu 16.04 system. You can then deploy your own web app on the basis of the LAMP stack. Enjoy it!
+That's all. After going through the above procedures, the LAMP stack would have been up and running on your Ubuntu 16.04 system. You can then deploy your own web app on the basis of the LAMP stack.
+
+Enjoy it! :metal: :metal:
+[More About Apache](http://www.apache.org)
+[More About MariaDB](http://www.mariadb.org)
+[More About PHP](http://www.php.net)
