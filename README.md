@@ -2,7 +2,7 @@
 # How to Install Apache 2.4.x, MariaDB 10.x, and PHP 7.x on Ubuntu 16.04
 
 
-!(LAMP)[http://resource.thaicreate.com/upload/tutorial/mariadb-apache-php-replace-mysql-01.jpg]
+![alt text](http://resource.thaicreate.com/upload/tutorial/mariadb-apache-php-replace-mysql-01.jpg)
 
 ---
 
@@ -134,6 +134,9 @@ _sudo ufw enable_
 That's all. After going through the above procedures, the LAMP stack would have been up and running on your Ubuntu 16.04 system. You can then deploy your own web app on the basis of the LAMP stack.
 
 Enjoy it! :metal: :metal:
+
 [More About Apache](http://www.apache.org)
+
 [More About MariaDB](http://www.mariadb.org)
+
 [More About PHP](http://www.php.net)
